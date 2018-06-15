@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3 id="personaggio"></h3>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script>
+    $(document).ready(function(){
+        alert('ci sono');
+        $.get("https://appfunction2.azurewebsites.net/api/Function1?link=1",
+        function(data){
+
+            console.log(data);
+            $("#personaggio").text(data);
+        })
+    });
+    
+    </script>
+</body>
+</html>

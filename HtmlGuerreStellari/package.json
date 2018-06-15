@@ -1,0 +1,21 @@
+{
+  "name": "htmlguerrestellari",
+  "version": "1.0.0",
+  "description": "pagina html guerre stellari",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "azure",
+    "functions",
+    "api",
+    "star",
+    "wars"
+  ],
+  "author": "salvatore sorrentino",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
